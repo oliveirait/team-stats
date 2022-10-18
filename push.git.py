@@ -26,9 +26,9 @@ if not comm:
 popen(f'git commit -m "{commit}"') 
 
 # Pergunta ao usuario se ele quer subir o push # ---------------------->
-push = mb.askyesno('Push', 'Deseja fazer o Push ?')
+'''push = mb.askyesno('Push', 'Deseja fazer o Push ?')
 if not push:
-    exit()
+    exit()'''
 
 # Realiza o push para o repo no Github # ---------------------->
 popen("git push -f origin main")
